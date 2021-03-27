@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+    text-align: center;
+    background-repeat: no-repeat;
+}
+img{
+    border-radius: 50%;
+    height: 120px;
+    width: 145px;
+}
+h1{
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 20px;
+}
+.main_bio:hover{
+    color: aqua;
+}
+.bio{
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+.hobby:hover{
+    color: blueviolet;
+}
+.hobby_1:hover{
+    color: deepskyblue;
+}
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+/*    position: sticky;*/
+      overflow: hidden;
+    position: fixed;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+    background-color: #000;
+}
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    color: black;
+    font-family: 'New Tegomin', serif;
+    font-size: 20px;
+}
+.links:hover{
+    background-color: darkorchid;
+}
+html{
+    scroll-behavior: smooth;
+}
